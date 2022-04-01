@@ -1,6 +1,6 @@
 name: sub-kubectl-aws-eks
 description: "This action provides kubectl for Github Actions."
-author: 'Maksim Karpychev'
+author: 'AN'
 runs:
   using: 'docker'
   image: 'Dockerfile'
