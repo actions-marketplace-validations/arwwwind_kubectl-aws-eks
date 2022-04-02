@@ -7,5 +7,6 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.21.5/b
     mv ./kubectl /usr/bin/kubectl  
 
 RUN kubectl version --client
+RUN aws-iam-authenticator help
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
